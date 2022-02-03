@@ -1,5 +1,5 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+import { Typewriter } from "react-simple-typewriter";
 
 const About = () => {
   return (
@@ -10,20 +10,19 @@ const About = () => {
             Hi, I'm Mfonobong Ekott.
             <br className="hidden lg:inline-block " />
           </h1>
-          <div className="mb-8 leading-relaxed">
+          <div className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white ">
             <Typewriter
-              options={{
-                strings: [
-                  "Software Engineer.",
-                  "Full-Stack Web Developer.",
-                  "I love to build amazing apps.",
-                ],
-                autoStart: true,
-                loop: true,
-                wrapperClassName:
-                  "title-font sm:text-4xl text-3xl mb-4 font-medium text-white",
-                cursorClassName: "text-white text-lg",
-              }}
+              words={[
+                "Software Engineer.",
+                "Full-Stack Web Developer.",
+                "I love to build amazing apps.",
+              ]}
+              loop={5}
+              cursor
+              cursorStyle="_"
+              typeSpeed={70}
+              deleteSpeed={50}
+              delaySpeed={1000}
             />
           </div>
           <div className="flex justify-center">
