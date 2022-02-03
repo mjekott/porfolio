@@ -1,6 +1,7 @@
 import React from "react";
 import { skills } from "../data";
 import { BadgeCheckIcon, ChipIcon } from "@heroicons/react/solid";
+import Typewriter from "typewriter-effect";
 
 const Skills = () => {
   return (
@@ -12,12 +13,24 @@ const Skills = () => {
             Skills &amp; Technologies
           </h1>
           <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
+            <Typewriter
+              options={{
+                strings: [
+                  "What i am focusing on Technically",
+                  "React + State Management - Advanced Concept",
+                  "Learning Design System Concepts for React Applications",
+                  "DDD and TDD for Nodejs+TypeScript Eco System",
+                  "Micro Services Implementation in Nest js",
+                ],
+                autoStart: true,
+                loop: true,
+                wrapperClassName: "italic text-md mb-4 font-medium text-white",
+                cursorClassName: "text-white text-lg",
+              }}
+            />
           </p>
         </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="flex flex-wrap  lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {skills.map((skill) => (
             <div key={skill} className="p-2 sm:w-1/2 w-full">
               <div className="bg-gray-800 rounded flex p-4 h-full items-center">
