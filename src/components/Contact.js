@@ -58,7 +58,6 @@ const COntact = () => {
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
                 08096003574
               </h2>
-              <p className="leading-relaxed">123-456-7890</p>
             </div>
           </div>
         </div>
@@ -72,8 +71,8 @@ const COntact = () => {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum
-            suscipit officia aspernatur veritatis. Asperiores, aliquid?
+            Available <br />
+            Weekdays 8am -10pm <br /> Weekends 10am - 5pm
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
@@ -115,7 +114,7 @@ const COntact = () => {
           </div>
           <button
             type="submit"
-            className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            className="text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
           >
             Submit
           </button>

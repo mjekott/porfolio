@@ -4,6 +4,7 @@ import { ArrowRightIcon } from "@heroicons/react/solid";
 const Navbar = () => {
   const [navBar, setNavBar] = useState(false);
   const [open, setOpen] = useState(false);
+  const toggleNav = () => setOpen((curr) => !curr);
   const ChangeBackground = () => {
     if (window.pageYOffset >= 20) {
       setNavBar(true);
@@ -22,16 +23,19 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="bg-transparent sticky  md:sticky top-0 z-10 text-white border-gray-200 px-2 sm:px-4 py-5  dark:bg-gray-800">
+    <nav className="bg-gray-900  sticky top-0 z-10 text-white border-gray-200 px-2 sm:px-4 py-5  dark:bg-gray-800">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a href="#about" className="ml-3 text-xl">
+        <a
+          href="#about"
+          className="ml-3 text-xl"
+          onClick={() => setOpen(false)}
+        >
           MJEKOTT
         </a>
         <div className="flex md:hidden">
           <button
-            data-collapse-toggle="mobile-menu-4"
             type="button"
-            className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg md:hidden outline-none "
             aria-controls="mobile-menu-4"
             aria-expanded="false"
           >
@@ -40,10 +44,10 @@ const Navbar = () => {
               fill="currentColor"
               viewBox="0 0 20 20"
               xmlns="http://www.w3.org/2000/svg"
-              onClick={() => setOpen((curr) => !curr)}
+              onClick={toggleNav}
             >
               <path
-                fill-rule="evenodd"
+                fillRule="evenodd"
                 d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
                 clipRule="evenodd"
               ></path>
@@ -56,7 +60,10 @@ const Navbar = () => {
           } justify-between transition duration-500 ease-in-out items-center w-full md:flex md:w-auto md:order-1`}
           id="mobile-menu-4"
         >
-          <ul className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:items-center w-full ">
+          <ul
+            className="flex flex-col mt-4 md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium md:items-center w-full "
+            onClick={toggleNav}
+          >
             <li>
               <a
                 href="#projects"
