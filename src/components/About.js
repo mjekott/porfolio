@@ -29,7 +29,7 @@ const About = () => {
           <div className="flex justify-center">
             <a
               href="#contact"
-              className="inline-flex items-center justify-center text-gray-400  bg-gray-800  border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-sm md:text-lg"
+              className="inline-flex items-center  justify-center text-gray-400  bg-gray-800  border-0 py-2 px-6 focus:outline-none hover:bg-gray-700 hover:text-white rounded text-sm md:text-lg"
             >
               Work With Me
             </a>

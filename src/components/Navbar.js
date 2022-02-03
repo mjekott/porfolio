@@ -1,26 +1,9 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { ArrowRightIcon } from "@heroicons/react/solid";
 
 const Navbar = () => {
-  const [navBar, setNavBar] = useState(false);
   const [open, setOpen] = useState(false);
   const toggleNav = () => setOpen((curr) => !curr);
-  const ChangeBackground = () => {
-    if (window.pageYOffset >= 20) {
-      setNavBar(true);
-    } else {
-      setNavBar(false);
-    }
-  };
-
-  console.log(navBar);
-
-  useEffect(() => {
-    window.addEventListener("scroll", ChangeBackground);
-    return () => {
-      window.removeEventListener("scroll", ChangeBackground);
-    };
-  }, []);
 
   return (
     <nav className="bg-gray-900  sticky top-0 z-10 text-white border-gray-200 px-2 sm:px-4 py-5  dark:bg-gray-800">
