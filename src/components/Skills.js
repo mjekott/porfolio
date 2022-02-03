@@ -21,7 +21,7 @@ const Skills = () => {
                 "DDD and TDD for Nodejs+TypeScript Eco System",
                 "Micro Services",
               ]}
-              loop={5}
+              loop={false}
               cursor
               cursorStyle="_"
               typeSpeed={70}

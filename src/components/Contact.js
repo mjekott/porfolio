@@ -29,25 +29,22 @@ const COntact = () => {
             style={{ filter: "opacity(0.7)" }}
             src="https://www.google.com/maps/embed/v1/place?q=Block+D5+flat7+jacob+mew+estate+yaba+lagos&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
           />
-          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md">
+          <div className="bg-gray-900 relative flex flex-wrap py-6 rounded shadow-md ">
             <div className="lg:w-1/2 px-6">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
                 ADDRESS
               </h2>
               <p className="mt-1">
-                13 Adebisi Street <br />
-                Jacob Mews Estate <br /> Yaba,Lagos
+                Yaba,Lagos <br /> Nigeria
               </p>
             </div>
             <div className="lg:w-1/2 px-6 mt-4 lg:mt-0">
               <h2 className="title-font font-semibold text-white tracking-widest text-xs">
-                EMAIL
+                Phone
               </h2>
-              <a className="text-indigo-400 leading-relaxed">
-                ekottmfon@email.com
-              </a>
+
               <h2 className="title-font font-semibold text-white tracking-widest text-xs mt-4">
-                08096003574
+                +2348096003574
               </h2>
             </div>
           </div>
@@ -61,8 +58,7 @@ const COntact = () => {
             Hire Me
           </h2>
           <p className="leading-relaxed mb-5">
-            Available <br />
-            Weekdays 8am -10pm <br /> Weekends 10am - 5pm
+            Weekdays 08:00 GMT - 22:00 GMT <br /> Weekends 10:00 GMT - 17:00 GMT
           </p>
           <div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">

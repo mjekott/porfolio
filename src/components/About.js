@@ -10,14 +10,14 @@ const About = () => {
             Hi, I'm Mfonobong Ekott.
             <br className="hidden lg:inline-block " />
           </h1>
-          <div className="title-font sm:text-4xl text-3xl mb-4 font-medium text-white ">
+          <div className="title-font sm:text-4xl text-xl mb-8 md:mb-4 font-medium text-white ">
             <Typewriter
               words={[
                 "Software Engineer.",
                 "Full-Stack Web Developer.",
                 "I love to build amazing apps.",
               ]}
-              loop={5}
+              loop={1}
               cursor
               cursorStyle="_"
               typeSpeed={70}
