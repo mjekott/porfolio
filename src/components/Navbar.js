@@ -8,11 +8,7 @@ const Navbar = () => {
   return (
     <nav className="bg-gray-900  sticky top-0 z-10 text-white border-gray-200 px-2 sm:px-4 py-5  dark:bg-gray-800">
       <div className="container flex flex-wrap justify-between items-center mx-auto">
-        <a
-          href="#about"
-          className="ml-3 text-xl"
-          onClick={() => setOpen(false)}
-        >
+        <a href="#home" className="ml-3 text-xl" onClick={() => setOpen(false)}>
           MJEKOTT
         </a>
         <div className="flex md:hidden">

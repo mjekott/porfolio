@@ -13,6 +13,8 @@ const About = () => {
           <div className="title-font sm:text-4xl text-xl mb-8 md:mb-4 font-medium text-white ">
             <Typewriter
               words={[
+                "Welcome to my portfolio",
+                "I am a ?",
                 "Software Engineer.",
                 "Full-Stack Web Developer.",
                 "I love to build amazing apps.",
@@ -145,7 +147,7 @@ const About = () => {
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
           <img
-            className="object-cover object-center rounded-lg border-3 border-gray-200"
+            className="object-cover object-center rounded-lg border-3 border-gray-200 md:w-98 md:h-98"
             alt="hero"
             src="./profile.png"
           />
