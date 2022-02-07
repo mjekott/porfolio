@@ -8,11 +8,9 @@ const COntact = () => {
     e.preventDefault();
     if (!name || !email || !message) {
       alert("All Fields Are Required");
+      return;
     }
     alert("Form Submitted");
-    setEmail("");
-    setName("");
-    setMessage("");
   }
   return (
     <section id="contact" className="relative">
@@ -50,7 +48,6 @@ const COntact = () => {
           </div>
         </div>
         <form
-          name="contact"
           onSubmit={handleSubmit}
           className="lg:w-1/3 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0"
         >

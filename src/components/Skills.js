@@ -19,7 +19,7 @@ const Skills = () => {
                 "React + State Management - Advanced Concept",
                 "Learning Design System Concepts for React Applications",
                 "DDD and TDD for Nodejs+TypeScript Eco System",
-                "Micro Services",
+                "Working on fintech applications",
               ]}
               loop={false}
               cursor
