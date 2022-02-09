@@ -25,6 +25,15 @@ export const projects = [
     github: "https://github.com/ndy40/bball-pickup-game-organiser",
   },
   {
+    title: "Dashboard",
+    tools: "React js,Tailwind",
+    description:
+      "An Ecommerce Dashboard layout built with tailwindcss",
+    image: "./projects/dashboard.jpg",
+link:"https://dashboard-v1-q6f6fwfij-ekottmfon-gmailcom.vercel.app/",
+    github: "https://github.com/mjekott/dashboard-tailwind",
+  },
+  {
     title: "MJ Eats",
     tools: "Nest Js,Postgres,Docker,React",
     description: "Backend clone of Uber Eats using Nest js and Graphql",
