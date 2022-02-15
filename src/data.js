@@ -17,14 +17,6 @@ export const projects = [
     github: "https://github.com/mjekott/clothing-store-react",
   },
   {
-    title: "PickUp Game",
-    tools: "Fast Api,Docker,React,Pwa",
-    description:
-      "A PWA built with react to enable users shedule basketball games.still in development",
-    image: "./projects/pickup.jpg",
-    github: "https://github.com/ndy40/bball-pickup-game-organiser",
-  },
-  {
     title: "Dashboard",
     tools: "React js,Tailwind",
     description:
