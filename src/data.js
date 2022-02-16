@@ -40,6 +40,14 @@ link:"https://dashboard-v1-q6f6fwfij-ekottmfon-gmailcom.vercel.app/",
     link: "https://mjekott-netflix.vercel.app/",
     github: "https://github.com/mjekott/netflix-clone-practice",
   },
+    {
+    title: "PickUp Game",
+    tools: "Fast Api,Docker,React,Pwa",
+    description:
+      "A PWA built with react to enable users shedule basketball games.still in development",
+    image: "./projects/pickup.jpg",
+    github: "https://github.com/ndy40/bball-pickup-game-organiser",
+  },
   {
     title: "Crypto App",
     tools: "React,Coingecko",
