@@ -37,6 +37,7 @@ const Projects = () => {
                     {project.link && (
                       <a
                         href={project.link}
+			target="__blank"
                         className="px-4 py-2 bg-green-400 text-white border border-gray-600 hover:bg-green-700 cursor-pointer w-20 flex items-center justify-center"
                       >
                         Live
@@ -46,6 +47,7 @@ const Projects = () => {
                     {project.github && (
                       <a
                         href={project.github}
+target="__blank"
                         className="px-4 py-2 bg-gray-600 border border-gray-600 hover:bg-gray-700 cursor-pointer w-20 flex items-center justify-center"
                       >
                         Github
