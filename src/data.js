@@ -32,13 +32,14 @@ link:"https://dashboard-v1-q6f6fwfij-ekottmfon-gmailcom.vercel.app/",
     image: "./projects/mj-eats.gif",
     github: "https://github.com/mjekott/MJ_EATS",
   },
-  {
-    title: "Netflix Clone",
-    tools: "React,Framer-motion",
-    description: "A clone built to practice animation using framer-motion",
-    image: "./projects/netflix.gif",
-    link: "https://mjekott-netflix.vercel.app/",
-    github: "https://github.com/mjekott/netflix-clone-practice",
+ {
+    title: "tcresourcetechnology.com",
+    tools: "wordpress",
+    description:
+      "C Resource Technology provides intensive practical Information Technology & Management training programs using today’s industry tools.",
+    image: "./projects/tcrt.jpg",
+    link: "https://portal.tcresourcetechnology.com/",
+
   },
     {
     title: "PickUp Game",
@@ -49,22 +50,13 @@ link:"https://dashboard-v1-q6f6fwfij-ekottmfon-gmailcom.vercel.app/",
     github: "https://github.com/ndy40/bball-pickup-game-organiser",
   },
   {
-    title: "Crypto App",
-    tools: "React,Coingecko",
+    title: "Findnaijajob.com",
+    tools: "wordpress",
     description:
-      "A CryptoCurrency App that list major crypocurrencies and displays historical data",
-    image: "./projects/crypto.gif",
-    link: "https://mjekott-cypto.vercel.app/",
-    github: "https://github.com/mjekott/crpto-tracker-v1",
-  },
-  {
-    title: "Todo Drag And Drop",
-    tools: "React,Recoil",
-    description:
-      "Everybody loves building a Todo App.Added a twist by implementing a drag and drop feature.Recoil is used for state managment",
-    image: "./projects/todo.gif",
-    link: "https://mjekott-todo.vercel.app/",
-    github: "https://github.com/mjekott/Todo-List",
+      "a website for job applicants,built with wordpress",
+    image: "./projects/findnaija.jpg",
+    link: "https://www.findnaijajob.com/",
+
   },
 ];
 
